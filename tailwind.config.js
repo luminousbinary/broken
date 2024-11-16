@@ -1,9 +1,17 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [
-    "./src/**/*.{js,ts,tsx,jsx}",
-  ],  theme: {
-    extend: {},
+ content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {
+      fontFamily: {
+        grotesk: ['CabinetGrotesk', 'sans-serif'],
+        inter: ['Inter', 'sans-serif'],
+      },
+
+    },
   },
   plugins: [],
 }

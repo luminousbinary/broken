@@ -7,9 +7,9 @@ function App() {
   return (
     <>
 
-      <div className='pt-[21px] md:pt-[49px] overflow-hidden'>
+      <div className='overflow-hidden'>
 
-        <nav className=' px-[25px] md:px-[70px] flex justify-between   w-full '>
+        <nav className='px-[25px] md:px-[70px] pt-[21px] md:py-[29px] flex justify-between fixed top-0 w-full z-50 bg-white'>
           <div className="logo max-w-[124.76px] "><img src="images/Logo.svg" alt="ARME Logo" /></div>
 
           <div className="links hidden md:gap-4 md:flex">

@@ -153,7 +153,33 @@ function App() {
               Natively Integrated mechanisms for communication, game progression, community integration, collaboration and Organic Growth.
             </div>
             <div className="item tracking-tighter border border-black min-h-[347.82px] md:min-h-[421px] min-w-[347.82px] md:min-w-[421px] rounded-[35px] bg-[#FEC9DD] font-medium text-[26px] md:text-[32px] p-11  ">
-              A challenge of game theory, strategy, vision, Long-term positioning and balance            </div>
+              A challenge of game theory, strategy, vision, Long-term positioning and balance
+            </div>
+            <div className="item tracking-tighter border border-black min-w-[347.82px] md:min-w-[421px] min-h-[347.82px] md:min-h-[421px] rounded-[35px] bg-[#9EC4F5] font-medium text-[26px] md:text-[32px] p-11 ">
+              Reinventing Rewards Sustainability and Introducing a new model of utility aggregation for web3 products.
+            </div>
+            <div className="item tracking-tighter border border-black min-h-[347.82px] md:min-h-[421px] min-w-[347.82px] md:min-w-[421px] rounded-[35px] bg-[#FCE74E] font-medium text-[26px] md:text-[32px] p-11  ">
+              XARME leverages user-specific, progressive, utility compartment unlocks to expand the project narrative and ensure dynamism of gameplay.
+            </div>
+            <div className="item tracking-tighter border border-black min-h-[347.82px] md:min-h-[421px] min-w-[347.82px] md:min-w-[421px] rounded-[35px] bg-[#C0C6FF] font-medium text-[26px] md:text-[32px] p-11  ">
+              Natively Integrated mechanisms for communication, game progression, community integration, collaboration and Organic Growth.
+            </div>
+            <div className="item tracking-tighter border border-black min-h-[347.82px] md:min-h-[421px] min-w-[347.82px] md:min-w-[421px] rounded-[35px] bg-[#FEC9DD] font-medium text-[26px] md:text-[32px] p-11  ">
+              A challenge of game theory, strategy, vision, Long-term positioning and balance
+            </div>
+            <div className="item tracking-tighter border border-black min-w-[347.82px] md:min-w-[421px] min-h-[347.82px] md:min-h-[421px] rounded-[35px] bg-[#9EC4F5] font-medium text-[26px] md:text-[32px] p-11 ">
+              Reinventing Rewards Sustainability and Introducing a new model of utility aggregation for web3 products.
+            </div>
+            <div className="item tracking-tighter border border-black min-h-[347.82px] md:min-h-[421px] min-w-[347.82px] md:min-w-[421px] rounded-[35px] bg-[#FCE74E] font-medium text-[26px] md:text-[32px] p-11  ">
+              XARME leverages user-specific, progressive, utility compartment unlocks to expand the project narrative and ensure dynamism of gameplay.
+            </div>
+            <div className="item tracking-tighter border border-black min-h-[347.82px] md:min-h-[421px] min-w-[347.82px] md:min-w-[421px] rounded-[35px] bg-[#C0C6FF] font-medium text-[26px] md:text-[32px] p-11  ">
+              Natively Integrated mechanisms for communication, game progression, community integration, collaboration and Organic Growth.
+            </div>
+            <div className="item tracking-tighter border border-black min-h-[347.82px] md:min-h-[421px] min-w-[347.82px] md:min-w-[421px] rounded-[35px] bg-[#FEC9DD] font-medium text-[26px] md:text-[32px] p-11  ">
+              A challenge of game theory, strategy, vision, Long-term positioning and balance
+            </div>
+
           </div>
 
         </section>
@@ -164,28 +190,28 @@ function App() {
             <div className="title tracking-tighter md:text-7xl text-5xl font-semibold text-start">The Crazy <br /> Stats</div>
           </div>
 
-          <div className="li bg-[#F9FAF9]  basis-8/12 px-[20px] md:px-[110px]">
-            <div className="liitems flex my-5 md:my-[70px] text-[25px] md:text-[44px] text-wrap tracking-tight font-medium justify-end items-center ml-[66px] ">
+          <div className="li bg-[#F9FAF9]  basis-8/12 px-[20px] md:px-[110px] ">
+            <div className="liitems animate-slideIn flex my-5 md:my-[70px] text-[25px] md:text-[44px] text-wrap tracking-tight font-medium justify-end items-center ml-[66px] ">
               <span className='bg-[#9DC4F5] w-[33px] h-[33px] md:w-[58px] md:h-[58px] flex justify-center items-center border-[1px] md:border-[2px] border-black  mx-5 px-1 py-1 md:py-2 rounded-[100%] text-[10px] md:text-[14px]'>500m</span>
               500 million posts per day
             </div>
-            <div className="liitems flex my-5 md:my-[70px] text-[25px] md:text-[44px] text-wrap tracking-tight font-medium justify-center items-center ml-[36px] ">
+            <div className="liitems animate-slideIn flex my-5 md:my-[70px] text-[25px] md:text-[44px] text-wrap tracking-tight font-medium justify-center items-center ml-[36px] ">
               <span className='bg-[#9DC4F5] w-[33px] h-[33px] md:w-[58px] md:h-[58px] flex justify-center items-center border-[1px] md:border-[2px] border-black  mx-5 px-1 py-1 md:py-2 rounded-[100%] text-[10px] md:text-[14px]'>100b</span>
               100 billion+ impressions per day
             </div>
-            <div className="liitems flex my-5 md:my-[70px] text-[25px] md:text-[44px] text-wrap tracking-tighter font-medium justify-start items-center ml-0 ">
+            <div className="liitems animate-slideIn flex my-5 md:my-[70px] text-[25px] md:text-[44px] text-wrap tracking-tighter font-medium justify-start items-center ml-0 ">
               <span className='bg-[#9DC4F5] w-[33px] h-[33px] md:w-[58px] md:h-[58px] flex justify-center items-center border-[1px] md:border-[2px] border-black  mx-5 px-1 py-1 md:py-2 rounded-[100%] text-[10px] md:text-[14px]'>250k</span>
               250,000 posts with atleast 1m <br className="hidden md:inline" /> impressions per day
             </div>
-            <div className="liitems flex my-5 md:my-[70px] text-[25px] md:text-[44px] text-wrap tracking-tight font-medium justify-start items-center ml-[23px] ">
+            <div className="liitems animate-slideIn flex my-5 md:my-[70px] text-[25px] md:text-[44px] text-wrap tracking-tight font-medium justify-start items-center ml-[23px] ">
               <span className='bg-[#FF5A4D] w-[33px] h-[33px] md:w-[58px] md:h-[58px] flex justify-center items-center border-[1px] md:border-[2px] border-black  mx-5 px-1 py-1 md:py-2 rounded-[100%] text-[10px] md:text-[14px]'>1.5m</span>
               1.5 million new <br className="inline md:hidden" />  signups everyday
             </div>
-            <div className="liitems flex my-5 md:my-[70px] text-[25px] md:text-[44px] text-wrap tracking-tight font-medium justify-center items-center ml-[36px] ">
+            <div className="liitems animate-slideIn flex my-5 md:my-[70px] text-[25px] md:text-[44px] text-wrap tracking-tight font-medium justify-center items-center ml-[36px] ">
               <span className='bg-[#FF5A4D] w-[33px] h-[33px] md:w-[58px] md:h-[58px] flex justify-center items-center border-[1px] md:border-[2px] border-black  mx-5 px-2 py-1 md:py-2 rounded-[100%] text-[10px] md:text-[14px]'>14%</span>
               Users spending 14% more time <br className="hidden md:inline" /> on X
             </div>
-            <div className="liitems flex my-5 md:my-[70px] text-[25px] md:text-[44px] text-wrap tracking-tight font-medium justify-end items-center ml-[66px]">
+            <div className="liitems animate-slideIn flex my-5 md:my-[70px] text-[25px] md:text-[44px] text-wrap tracking-tight font-medium justify-end items-center ml-[66px]">
               <span className='bg-[#FBE74E] w-[33px] h-[33px] md:w-[58px] md:h-[58px] flex justify-center items-center border-[1px] md:border-[2px] border-black  mx-5 px-2 py-1 md:py-2 rounded-[100%] text-[10px] md:text-[14px]'>No.1</span>
               The number 1 news channel <br className="hidden md:inline" /> on Earth
             </div>
@@ -194,7 +220,7 @@ function App() {
         </section>
 
         <section className=" px-[25px] md:px-[110px] program flex h-full flex-col gap-5 md:gap-10 justify-center my-16 items-center text-center">
-         
+
           <div className="title tracking-tighter md:text-7xl text-5xl font-semibold  ">
             XARME  <img className='w-11 inline' src="images/emoji/peacesign.svg" alt="" /> <br className="inline md:hidden" />   Creators <br />
             program
@@ -209,7 +235,7 @@ function App() {
               dummy.map((e, index) => (
 
                 <div key={index} className="imagesbox bg-slate-800 rounded-full overflow-hidden w-[33px] h-[33px] md:w-[58px] md:h-[58px] ">
-                  <img src={`images/users/${e}im.svg`} alt="prof"  />
+                  <img src={`images/users/${e}im.svg`} alt="prof" />
                 </div>
               ))
             }

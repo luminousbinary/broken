@@ -46,6 +46,21 @@ function App() {
                 <div key={index} className="org"><img className='min-w-20 ' src={`images/brnd logo/${e}q.svg`} height={"19px"} alt="" /> </div>
               ))
             }
+             {
+              dummy2.map((e, index) => (
+                <div key={index} className="org"><img className='min-w-20 ' src={`images/brnd logo/${e}q.svg`} height={"19px"} alt="" /> </div>
+              ))
+            }
+             {
+              dummy2.map((e, index) => (
+                <div key={index} className="org"><img className='min-w-20 ' src={`images/brnd logo/${e}q.svg`} height={"19px"} alt="" /> </div>
+              ))
+            }
+             {
+              dummy2.map((e, index) => (
+                <div key={index} className="org"><img className='min-w-20 ' src={`images/brnd logo/${e}q.svg`} height={"19px"} alt="" /> </div>
+              ))
+            }
 
           </div>
           <div className="title tracking-tighter md:text-7xl text-5xl font-semibold items-start my-[111px] md:my-[70px] ">
@@ -128,18 +143,19 @@ function App() {
 
         <section className=" px-[25px] md:px-[110px] specs  h-full animate-scroll">
           <div className="itemlist flex gap-[28px] justify-evenly flex-nowrap   ">
-            <div className="item tracking-tight border border-black min-w-[347.82px] md:min-w-[421px] h-[347.82px] md:min-h-[421px] rounded-[35px] bg-[#9EC4F5] font-medium text-[26px] md:text-[32px] p-11 ">
+            <div className="item tracking-tighter border border-black min-w-[347.82px] md:min-w-[421px] min-h-[347.82px] md:min-h-[421px] rounded-[35px] bg-[#9EC4F5] font-medium text-[26px] md:text-[32px] p-11 ">
               Reinventing Rewards Sustainability and Introducing a new model of utility aggregation for web3 products.
             </div>
-            <div className="item tracking-tight border border-black h-[347.82px] md:min-h-[421px] min-w-[347.82px] md:min-w-[421px] rounded-[35px] bg-[#FCE74E] font-medium text-[26px] md:text-[32px] p-11  ">
+            <div className="item tracking-tighter border border-black min-h-[347.82px] md:min-h-[421px] min-w-[347.82px] md:min-w-[421px] rounded-[35px] bg-[#FCE74E] font-medium text-[26px] md:text-[32px] p-11  ">
               XARME leverages user-specific, progressive, utility compartment unlocks to expand the project narrative and ensure dynamism of gameplay.
             </div>
-            <div className="item tracking-tight border border-black h-[347.82px] md:min-h-[421px] min-w-[347.82px] md:min-w-[421px] rounded-[35px] bg-[#C0C6FF] font-medium text-[26px] md:text-[32px] p-11  ">
+            <div className="item tracking-tighter border border-black min-h-[347.82px] md:min-h-[421px] min-w-[347.82px] md:min-w-[421px] rounded-[35px] bg-[#C0C6FF] font-medium text-[26px] md:text-[32px] p-11  ">
               Natively Integrated mechanisms for communication, game progression, community integration, collaboration and Organic Growth.
             </div>
-            <div className="item tracking-tight border border-black h-[347.82px] md:min-h-[421px] min-w-[347.82px] md:min-w-[421px] rounded-[35px] bg-[#FEC9DD] font-medium text-[26px] md:text-[32px] p-11  ">
+            <div className="item tracking-tighter border border-black min-h-[347.82px] md:min-h-[421px] min-w-[347.82px] md:min-w-[421px] rounded-[35px] bg-[#FEC9DD] font-medium text-[26px] md:text-[32px] p-11  ">
               A challenge of game theory, strategy, vision, Long-term positioning and balance            </div>
           </div>
+          
         </section>
 
         <section className="md:bg-[#F9FAF9] product h-full flex flex-col md:flex-row justify-between mt-[145px] items-start md:items-center">

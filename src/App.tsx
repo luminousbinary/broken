@@ -39,8 +39,8 @@ function App() {
 
         </section>
 
-        <section className=" px-[25px] md:px-[110px] companies-starch ">
-          <div className="singleline h-32 flex gap-[60px] w-full justify-between animate-scroll items-center ">
+        <section className=" px-[25px] md:px-[110px] companies-starch my-[70px]">
+          <div className="singleline h-12 flex gap-[60px] w-full justify-between animate-scroll items-center ">
             {
               dummy2.map((e, index) => (
                 <div key={index} className="org"><img className='min-w-20 ' src={`images/brnd logo/${e}q.svg`} height={"19px"} alt="" /> </div>
@@ -63,7 +63,7 @@ function App() {
             }
 
           </div>
-          <div className="title tracking-tighter md:text-7xl text-5xl font-semibold items-start my-[111px] md:my-[70px] ">
+          <div className="title tracking-tighter md:text-7xl text-5xl font-semibold items-start my-[70px] ">
             Telegram’s First Modular <br className='hidden md:flex' /> Web3 Superapp
           </div>
 
@@ -96,8 +96,8 @@ function App() {
         </section>
 
 
-        <section className=" px-[25px] md:px-[110px] features h-full  my-[80px] ">
-          <div className="title tracking-tighter md:text-7xl text-5xl font-semibold text-start">
+        <section className=" px-[25px] md:px-[110px] features h-full  mt-[80px] ">
+          <div className="title tracking-tighter md:text-7xl text-5xl mb-2 font-semibold text-start">
             The XARME MotherApp
           </div>
           <div className="subtitle text-lg tracking-tight md:text-2xl font-medium text-start text-[#636363]">
@@ -105,7 +105,7 @@ function App() {
             of an evolving and dynamic suite of integrated products and use-cases.
           </div>
 
-          <div className="imagelist flex flex-col md:flex-row md:flex-wrap py-[70px] md:pt-[153px]  gap-y-[-12px] ">
+          <div className="imagelist flex flex-col md:flex-row md:flex-wrap pt-[70px] md:pt-[153px]   ">
             <div className="imageitem md:flex flex-col md:mb-[-70px] justify-end w-[360px] basis-1/3 ">
               <div className="lil-title">
                 <img src="images/xot/1f.svg" alt="image1" />
@@ -141,7 +141,7 @@ function App() {
           </div>
         </section>
 
-        <section className=" px-[25px] md:px-[110px] specs  h-full animate-scroll">
+        <section className=" px-[25px] md:px-[110px] specs h-full animate-scroll">
 
           <div className="itemlist flex gap-[28px] justify-evenly flex-nowrap   ">
             <div className="item tracking-tighter border border-black min-w-[347.82px] md:min-w-[421px] min-h-[347.82px] md:min-h-[421px] rounded-[35px] bg-[#9EC4F5] font-medium text-[26px] md:text-[32px] p-11 ">
@@ -185,7 +185,7 @@ function App() {
 
         </section>
 
-        <section className="md:bg-[#F9FAF9] product h-full flex flex-col md:flex-row justify-between mt-[145px] items-start md:items-center">
+        <section className="md:bg-[#F9FAF9] product h-full flex flex-col md:flex-row justify-between mt-[70px] items-start md:items-center">
           <div className="main-title flex flex-col gap-y-6 basis-3/12 px-[25px] py-[47px] md:pl-[110px]">
             <div className="subtitle">X-on-Ton</div>
             <div className="title tracking-tighter md:text-7xl text-5xl font-semibold text-start">The Crazy <br /> Stats</div>
@@ -220,14 +220,14 @@ function App() {
 
         </section>
 
-        <section className=" px-[25px] md:px-[110px] program flex h-full flex-col gap-5 md:gap-10 justify-center my-16 items-center text-center">
+        <section className=" px-[25px] md:px-[110px] program flex h-full flex-col gap-5 md:gap-10 justify-center mt-16 md:mb-0 mb-16 items-center text-center">
 
           <div className="title tracking-tighter md:text-7xl text-5xl font-semibold  ">
             XARME  <img className='w-11 inline' src="images/emoji/peacesign.svg" alt="" /> <br className="inline md:hidden" />   Creators <br />
             program
           </div>
 
-          <div className="text w-[100vw] tracking-tighter md:text-2xl text-[14px] font-semibold font-inter mt-16 md:mt-24 ">
+          <div className="text w-[100vw] tracking-tighter md:text-2xl text-[14px] font-semibold font-inter mt-12 md:mt-24 ">
             Join thousands of creators in the XARME Creators Program
           </div>
 

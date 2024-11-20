@@ -108,33 +108,33 @@ function App() {
           <div className="imagelist flex flex-col md:flex-row md:flex-wrap pt-[70px] md:pt-[153px]   ">
             <div className="imageitem animate-slideUp md:flex flex-col md:mb-[-70px] justify-end w-[360px] basis-1/3 ">
               <div className="lil-title">
-                <img src="images/xot/1f.svg" alt="image1" />
+                <img src="images/xot/1f.png" alt="image1" />
               </div>
             </div>
 
             <div className="imageitem animate-slideUp md:flex flex-col mt-[-51px] md:mt-[0px] md:mb-[70px] w-[360px] basis-1/3 ">
               <div className="lil-title">
-                <img src="images/xot/6f.svg" alt="image1" />
+                <img src="images/xot/6f.png" alt="image1" />
               </div>
             </div>
             <div className="imageitem animate-slideUp md:flex flex-col mt-[-51px] md:mt-[0px] md:mb-[-100px] justify-end w-[360px] basis-1/3 ">
               <div className="lil-title">
-                <img src="images/xot/3f.svg" alt="image1" />
+                <img src="images/xot/3f.png" alt="image1" />
               </div>
             </div>
             <div className="imageitem animate-slideUp md:flex flex-col mt-[-51px] md:mt-[0px] md:justify-center w-[360px] basis-1/3 ">
               <div className="lil-title">
-                <img src="images/xot/5f.svg" alt="image1" />
+                <img src="images/xot/5f.png" alt="image1" />
               </div>
             </div>
             <div className="imageitem animate-slideUp md:flex flex-col mt-[-51px] md:mt-[-70px] w-[360px] basis-1/3 ">
               <div className="lil-title">
-                <img src="images/xot/4f.svg" alt="image1" />
+                <img src="images/xot/4f.png" alt="image1" />
               </div>
             </div>
             <div className="imageitem animate-slideUp md:flex flex-col mt-[-51px] md:mt-[0px] md:justify-center w-[360px] basis-1/3 ">
               <div className="lil-title">
-                <img src="images/xot/2f.svg" alt="image1" />
+                <img src="images/xot/2f.png" alt="image1" />
               </div>
             </div>
 

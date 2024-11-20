@@ -20,7 +20,7 @@ export default {
       },
       animation: {
         scroll: "scroll 40s linear infinite",
-        slideIn:"slideIn 2s ease-in-out"
+        slideIn:"slideIn 3s ease-in-out"
       },
       fontFamily: {
         grotesk: ["CabinetGrotesk", "sans-serif"],

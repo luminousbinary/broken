@@ -186,34 +186,34 @@ function App() {
         </section>
 
         <section className="md:bg-[#F9FAF9] product h-full flex flex-col md:flex-row justify-between mt-[145px] items-start md:items-center">
-          <div className="main-title flex flex-col gap-y-6 basis-4/12 px-[25px] py-[47px] md:pl-[110px]">
+          <div className="main-title flex flex-col gap-y-6 basis-3/12 px-[25px] py-[47px] md:pl-[110px]">
             <div className="subtitle">X-on-Ton</div>
             <div className="title tracking-tighter md:text-7xl text-5xl font-semibold text-start">The Crazy <br /> Stats</div>
           </div>
 
-          <div className="li bg-[#F9FAF9]  basis-8/12 px-[20px] md:px-[110px] ">
+          <div className="li bg-[#F9FAF9]  basis-9/12 px-[20px] md:px-[110px] ">
             <div className="liitems animate-slideIn flex my-5 md:my-[70px] text-[25px] md:text-[44px] text-wrap tracking-tight font-medium justify-end items-center ml-[66px] ">
-              <span className='bg-[#9DC4F5] w-[33px] h-[33px] md:w-[58px] md:h-[58px] flex justify-center items-center border-[1px] md:border-[2px] border-black  mx-5 px-1 py-1 md:py-2 rounded-[100%] text-[10px] md:text-[14px]'>500m</span>
+              <span className='bg-[#9DC4F5] w-[33px] h-[33px] md:w-[58px] md:h-[58px] flex justify-center items-center border-[1px] md:border-[2px] border-black  mx-5 px-2 py-1  rounded-[100%] text-[10px] md:text-[14px]'>500m</span>
               500 million posts per day
             </div>
             <div className="liitems animate-slideIn flex my-5 md:my-[70px] text-[25px] md:text-[44px] text-wrap tracking-tight font-medium justify-center items-center ml-[36px] ">
-              <span className='bg-[#9DC4F5] w-[33px] h-[33px] md:w-[58px] md:h-[58px] flex justify-center items-center border-[1px] md:border-[2px] border-black  mx-5 px-1 py-1 md:py-2 rounded-[100%] text-[10px] md:text-[14px]'>100b</span>
+              <span className='bg-[#9DC4F5] w-[33px] h-[33px] md:w-[58px] md:h-[58px] flex justify-center items-center border-[1px] md:border-[2px] border-black  mx-5 px-2 py-1 rounded-[100%] text-[10px] md:text-[14px]'>100b</span>
               100 billion+ impressions per day
             </div>
             <div className="liitems animate-slideIn flex my-5 md:my-[70px] text-[25px] md:text-[44px] text-wrap tracking-tighter font-medium justify-start items-center ml-0 ">
-              <span className='bg-[#9DC4F5] w-[33px] h-[33px] md:w-[58px] md:h-[58px] flex justify-center items-center border-[1px] md:border-[2px] border-black  mx-5 px-1 py-1 md:py-2 rounded-[100%] text-[10px] md:text-[14px]'>250k</span>
+              <span className='bg-[#9DC4F5] w-[33px] h-[33px] md:w-[58px] md:h-[58px] flex justify-center items-center border-[1px] md:border-[2px] border-black  mx-5 px-2 py-1 rounded-[100%] text-[10px] md:text-[14px]'>250k</span>
               250,000 posts with atleast 1m <br className="hidden md:inline" /> impressions per day
             </div>
             <div className="liitems animate-slideIn flex my-5 md:my-[70px] text-[25px] md:text-[44px] text-wrap tracking-tight font-medium justify-start items-center ml-[23px] ">
-              <span className='bg-[#FF5A4D] w-[33px] h-[33px] md:w-[58px] md:h-[58px] flex justify-center items-center border-[1px] md:border-[2px] border-black  mx-5 px-1 py-1 md:py-2 rounded-[100%] text-[10px] md:text-[14px]'>1.5m</span>
+              <span className='bg-[#FF5A4D] w-[33px] h-[33px] md:w-[58px] md:h-[58px] flex justify-center items-center border-[1px] md:border-[2px] border-black  mx-5 px-2 py-1 rounded-[100%] text-[10px] md:text-[14px]'>1.5m</span>
               1.5 million new <br className="inline md:hidden" />  signups everyday
             </div>
             <div className="liitems animate-slideIn flex my-5 md:my-[70px] text-[25px] md:text-[44px] text-wrap tracking-tight font-medium justify-center items-center ml-[36px] ">
-              <span className='bg-[#FF5A4D] w-[33px] h-[33px] md:w-[58px] md:h-[58px] flex justify-center items-center border-[1px] md:border-[2px] border-black  mx-5 px-2 py-1 md:py-2 rounded-[100%] text-[10px] md:text-[14px]'>14%</span>
+              <span className='bg-[#FF5A4D] w-[33px] h-[33px] md:w-[58px] md:h-[58px] flex justify-center items-center border-[1px] md:border-[2px] border-black  mx-5 px-2 py-1 rounded-[100%] text-[10px] md:text-[14px]'>14%</span>
               Users spending 14% more time <br className="hidden md:inline" /> on X
             </div>
             <div className="liitems animate-slideIn flex my-5 md:my-[70px] text-[25px] md:text-[44px] text-wrap tracking-tight font-medium justify-end items-center ml-[66px]">
-              <span className='bg-[#FBE74E] w-[33px] h-[33px] md:w-[58px] md:h-[58px] flex justify-center items-center border-[1px] md:border-[2px] border-black  mx-5 px-2 py-1 md:py-2 rounded-[100%] text-[10px] md:text-[14px]'>No.1</span>
+              <span className='bg-[#FBE74E] w-[33px] h-[33px] md:w-[58px] md:h-[58px] flex justify-center items-center border-[1px] md:border-[2px] border-black  mx-5 px-2 py-1 rounded-[100%] text-[10px] md:text-[14px]'>No.1</span>
               The number 1 news channel <br className="hidden md:inline" /> on Earth
             </div>
           </div>

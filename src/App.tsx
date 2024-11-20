@@ -193,12 +193,14 @@ function App() {
 
         </section>
 
-        <section className=" px-[25px] md:px-[110px] program flex h-full flex-col gap-10 justify-center my-16 items-center text-center">
+        <section className=" px-[25px] md:px-[110px] program flex h-full flex-col gap-5 md:gap-10 justify-center my-16 items-center text-center">
+         
           <div className="title tracking-tighter md:text-7xl text-5xl font-semibold  ">
             XARME  <img className='w-11 inline' src="images/emoji/peacesign.svg" alt="" /> <br className="inline md:hidden" />   Creators <br />
             program
           </div>
-          <div className="text w-[100vw] tracking-tighter md:text-2xl text-[14px] font-semibold font-inter mt-24 ">
+
+          <div className="text w-[100vw] tracking-tighter md:text-2xl text-[14px] font-semibold font-inter mt-16 md:mt-24 ">
             Join thousands of creators in the XARME Creators Program
           </div>
 
@@ -210,12 +212,9 @@ function App() {
                   <img src={`images/users/${e}im.svg`} alt="prof"  />
                 </div>
               ))
-
-
             }
-
-
           </div>
+
           <button className='bg-[#4A6BFF] border-[black] rounded-[70px] border-[2px] w-[247px] md:w-[310px] h-[54px] md:h-[66px] text-white md:text-lg text-sm '>
             Join Now
           </button>

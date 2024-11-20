@@ -46,17 +46,17 @@ function App() {
                 <div key={index} className="org"><img className='min-w-20 ' src={`images/brnd logo/${e}q.svg`} height={"19px"} alt="" /> </div>
               ))
             }
-             {
+            {
               dummy2.map((e, index) => (
                 <div key={index} className="org"><img className='min-w-20 ' src={`images/brnd logo/${e}q.svg`} height={"19px"} alt="" /> </div>
               ))
             }
-             {
+            {
               dummy2.map((e, index) => (
                 <div key={index} className="org"><img className='min-w-20 ' src={`images/brnd logo/${e}q.svg`} height={"19px"} alt="" /> </div>
               ))
             }
-             {
+            {
               dummy2.map((e, index) => (
                 <div key={index} className="org"><img className='min-w-20 ' src={`images/brnd logo/${e}q.svg`} height={"19px"} alt="" /> </div>
               ))
@@ -101,7 +101,7 @@ function App() {
             The XARME MotherApp
           </div>
           <div className="subtitle text-lg tracking-tight md:text-2xl font-medium text-start text-[#636363]">
-            It is the first modular, Web3 GameFi SuperApp on Telegram, consisting <br  className='hidden md:flex' />
+            It is the first modular, Web3 GameFi SuperApp on Telegram, consisting <br className='hidden md:flex' />
             of an evolving and dynamic suite of integrated products and use-cases.
           </div>
 
@@ -155,7 +155,7 @@ function App() {
             <div className="item tracking-tighter border border-black min-h-[347.82px] md:min-h-[421px] min-w-[347.82px] md:min-w-[421px] rounded-[35px] bg-[#FEC9DD] font-medium text-[26px] md:text-[32px] p-11  ">
               A challenge of game theory, strategy, vision, Long-term positioning and balance            </div>
           </div>
-          
+
         </section>
 
         <section className="md:bg-[#F9FAF9] product h-full flex flex-col md:flex-row justify-between mt-[145px] items-start md:items-center">
@@ -189,26 +189,25 @@ function App() {
               <span className='bg-[#FBE74E] w-[33px] h-[33px] md:w-[58px] md:h-[58px] flex justify-center items-center border-[1px] md:border-[2px] border-black  mx-5 px-2 py-1 md:py-2 rounded-[100%] text-[10px] md:text-[14px]'>No.1</span>
               The number 1 news channel <br className="hidden md:inline" /> on Earth
             </div>
-
           </div>
 
         </section>
 
         <section className=" px-[25px] md:px-[110px] program flex h-full flex-col gap-10 justify-center my-16 items-center text-center">
           <div className="title tracking-tighter md:text-7xl text-5xl font-semibold  ">
-           XARME  <img className='w-11 inline' src="images/emoji/peacesign.svg" alt="" /> <br className="inline md:hidden" />   Creators <br />
+            XARME  <img className='w-11 inline' src="images/emoji/peacesign.svg" alt="" /> <br className="inline md:hidden" />   Creators <br />
             program
           </div>
-          <div className="text text-2xl font-semibold font-inter mt-24 ">
+          <div className="text w-[100vw] tracking-tighter md:text-2xl text-[14px] font-semibold font-inter mt-24 ">
             Join thousands of creators in the XARME Creators Program
           </div>
 
-          <div className="rowsofimage flex justify-center gap-3 items-center mb-2 ">
+          <div className="rowsofimage flex justify-center gap-1  md:gap-3 items-center mb-2 ">
             {
               dummy.map((e, index) => (
 
-                <div key={index} className="imagesbox bg-slate-800 rounded-full overflow-hidden w-[58px] h-[58px] ">
-                  <img src={`images/users/${e}im.svg`} alt="prof" width={"58px"} height={"58px"} />
+                <div key={index} className="imagesbox bg-slate-800 rounded-full overflow-hidden w-[33px] h-[33px] md:w-[58px] md:h-[58px] ">
+                  <img src={`images/users/${e}im.svg`} alt="prof"  />
                 </div>
               ))
 
@@ -217,8 +216,9 @@ function App() {
 
 
           </div>
-
-          <button className='bg-[#4A6BFF] border-[black] rounded-[70px] border-[2px] w-[310px] h-[66px] text-white text-lg ' >Join Now</button>
+          <button className='bg-[#4A6BFF] border-[black] rounded-[70px] border-[2px] w-[247px] md:w-[310px] h-[54px] md:h-[66px] text-white md:text-lg text-sm '>
+            Join Now
+          </button>
 
         </section>
 

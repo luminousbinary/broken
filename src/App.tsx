@@ -32,8 +32,8 @@ function App() {
 
         <section className=" px-[25px] md:px-[110px] hero flex flex-col text-center items-center gap-[40px] justify-center md:h-screen mt-[103px] md:mt-0">
           <div className="head md:text-2xl text-xl font-normal md:font-semibold font-inter ">X-Arme Collection</div>
-          <div className="title tracking-tighter md:text-7xl text-5xl font-semibold text-center">The Gamified Lifestyle <br /> and Growth SuperApp.</div>
-          <div className="subtitle text-lg text-[#636363] md:text-xl font-medium text-center ">A community-oriented, utility-driven product hub <br /> on The Open Network.</div>
+          <div className="title tracking-tighter md:text-7xl text-5xl font-semibold text-center">The Gamified Lifestyle <br className='hidden md:inline' /> and Growth SuperApp.</div>
+          <div className="subtitle text-lg text-[#636363] md:text-xl font-medium text-center ">A community-oriented, utility-driven product hub <br className='hidden md:inline' /> on The Open Network.</div>
 
           <button className='bg-[#4A6BFF] border-[black] rounded-[70px] border-[2px] w-[247px] md:w-[310px] h-[54px] md:h-[66px] text-white md:text-lg text-sm '>Enter MotherApp<img className='inline px-2 h-2 md:h-5' src="images/inverse/telegram.svg" alt="" /></button>
 
@@ -142,6 +142,7 @@ function App() {
         </section>
 
         <section className=" px-[25px] md:px-[110px] specs  h-full animate-scroll">
+
           <div className="itemlist flex gap-[28px] justify-evenly flex-nowrap   ">
             <div className="item tracking-tighter border border-black min-w-[347.82px] md:min-w-[421px] min-h-[347.82px] md:min-h-[421px] rounded-[35px] bg-[#9EC4F5] font-medium text-[26px] md:text-[32px] p-11 ">
               Reinventing Rewards Sustainability and Introducing a new model of utility aggregation for web3 products.

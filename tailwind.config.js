@@ -5,12 +5,12 @@ export default {
     extend: {
       keyframes: {
         scroll: {
-          "0%": { transform: "translateX(100%)" },
-          "100%": { transform: "translateX(-100%)" },
+          "1%": { transform: "translateX(50%)" },
+          "100%": { transform: "translateX(-200%)" },
         },
       },
       animation:{
-        scroll: "scroll 24s linear infinite"
+        scroll: "scroll 40s linear infinite"
       },
       fontFamily: {
         grotesk: ["CabinetGrotesk", "sans-serif"],

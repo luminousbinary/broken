@@ -12,7 +12,7 @@ function App() {
         <nav className=' px-[25px] md:px-[70px] flex justify-between   w-full '>
           <div className="logo max-w-[124.76px] "><img src="images/Logo.svg" alt="ARME Logo" /></div>
 
-          <div className="links hidden md:flex md:gap-4 md:flex">
+          <div className="links hidden md:gap-4 md:flex">
             <button className='flex text-sm font-semibold text-nowrap justify-center items-center gap-4 text-white bg-black px-3 rounded-full w-[156px] h-[53px]'>
               Join Us <img src="images/inverse/telegram.svg" width={"20px"} alt="telegram" />
               <img src="images/inverse/x.svg" width={"20px"} alt="X (formerly Twitrter)" />
@@ -30,7 +30,7 @@ function App() {
         </nav>
 
 
-        <section className=" px-[25px] md:px-[110px] hero flex flex-col text-center items-center gap-[40px] justify-center h-screen mt-[257px] md:mt-0">
+        <section className=" px-[25px] md:px-[110px] hero flex flex-col text-center items-center gap-[40px] justify-center md:h-screen mt-[103px] md:mt-0">
           <div className="head md:text-2xl text-xl font-normal md:font-semibold font-inter ">X-Arme Collection</div>
           <div className="title tracking-tighter md:text-7xl text-5xl font-semibold text-center">The Gamified Lifestyle <br /> and Growth SuperApp.</div>
           <div className="subtitle text-lg text-[#636363] md:text-xl font-medium text-center ">A community-oriented, utility-driven product hub <br /> on The Open Network.</div>
@@ -43,7 +43,7 @@ function App() {
           <div className="singleline h-32 flex gap-[60px] w-full justify-between animate-scroll items-center ">
             {
               dummy2.map((e, index) => (
-                <div key={index} className="org"><img className='min-w-11 ' src={`images/brnd logo/${e}q.svg`} height={"19px"} alt="" /> </div>
+                <div key={index} className="org"><img className='min-w-20 ' src={`images/brnd logo/${e}q.svg`} height={"19px"} alt="" /> </div>
               ))
             }
 

@@ -1,18 +1,22 @@
 /** @type {import('tailwindcss').Config} */
 export default {
- content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
-      fontFamily: {
-        grotesk: ['CabinetGrotesk', 'sans-serif'],
-        inter: ['Inter', 'sans-serif'],
+      keyframes: {
+        scroll: {
+          "0%": { transform: "translateX(100%)" },
+          "100%": { transform: "translateX(-100%)" },
+        },
       },
-
+      animation:{
+        scroll: "scroll 24s linear infinite"
+      },
+      fontFamily: {
+        grotesk: ["CabinetGrotesk", "sans-serif"],
+        inter: ["Inter", "sans-serif"],
+      },
     },
   },
   plugins: [],
-}
-
+};

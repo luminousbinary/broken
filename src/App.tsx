@@ -9,7 +9,7 @@ function App() {
 
       <div className='overflow-hidden'>
 
-        <nav className='px-[25px] md:px-[70px] pt-[21px] md:py-[29px] flex justify-between fixed top-0 w-full z-50 bg-white'>
+        <nav className='px-[25px] md:px-[70px] pt-[21px] md:py-[29px] flex justify-center bg-white/30 backdrop-blur-md md:justify-between fixed top-0 w-full z-50 bg-white'>
           <div className="logo max-w-[124.76px] "><img src="images/Logo.svg" alt="ARME Logo" /></div>
 
           <div className="links hidden md:gap-4 md:flex">
@@ -23,10 +23,7 @@ function App() {
               <img src="images/inverse/github.svg" width={"20px"} alt="github" />
             </button>
           </div>
-          <div className='md:hidden'>
-            <button className='flex text-sm font-semibold justify-center items-center gap-4 text-white bg-black px-3 rounded-full w-[52px] h-[52px]'>
-            </button>
-          </div>
+        
         </nav>
 
 
@@ -192,7 +189,7 @@ function App() {
 
         </section>
 
-        <section className="md:bg-[#F9FAF9] product h-full flex flex-col md:flex-row justify-between mt-[70px] items-start md:items-center">
+        <section className="md:bg-[#F9FAF9] product h-full flex flex-col md:flex-row justify-between mt-[60px] items-start md:items-center">
           <div className="main-title flex flex-col gap-y-6 basis-3/12 px-[25px] py-[47px] md:pl-[110px]">
             <div className="subtitle">X-on-Ton</div>
             <div className="title tracking-tighter md:text-7xl text-5xl font-semibold text-start">The Crazy <br /> Stats</div>

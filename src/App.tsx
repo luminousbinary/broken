@@ -31,42 +31,41 @@ function App() {
           <div className="head md:text-2xl text-xl font-normal md:font-semibold font-inter ">X-Arme Collection</div>
           <div className="title tracking-tighter md:text-7xl text-5xl font-semibold text-center">The Gamified Lifestyle <br className='hidden md:inline' /> and Growth SuperApp.</div>
           <div className="subtitle text-lg text-[#636363] md:text-xl font-medium text-center ">A community-oriented, utility-driven product hub <br className='hidden md:inline' /> on The Open Network.</div>
-
           <button className='bg-[#4A6BFF] border-[black] rounded-[70px] border-[2px] w-[247px] md:w-[310px] h-[54px] md:h-[66px] text-white md:text-lg text-sm '>Enter MotherApp<img className='inline px-2 h-2 md:h-5' src="images/inverse/telegram.svg" alt="" /></button>
 
         </section>
 
-        <section className=" px-[25px] md:px-[110px] companies-starch my-[70px]">
+        <section className=" px-[25px] md:px-[110px] companies-starch mt-[70px] md:mt-0">
           <div className="singleline h-12 flex gap-[60px] w-full justify-between animate-scroll items-center ">
             {
               dummy2.map((e, index) => (
-                <div key={index} className="org"><img className='min-w-20 ' src={`images/brnd logo/${e}q.svg`} height={"19px"} alt="" /> </div>
+                <div key={index} className="org"><img className='min-w-24 ' src={`images/brnd logo/${e}q.svg`} height={"19px"} alt="" /> </div>
               ))
             }
             {
               dummy2.map((e, index) => (
-                <div key={index} className="org"><img className='min-w-20 ' src={`images/brnd logo/${e}q.svg`} height={"19px"} alt="" /> </div>
+                <div key={index} className="org"><img className='min-w-24 ' src={`images/brnd logo/${e}q.svg`} height={"19px"} alt="" /> </div>
               ))
             }
             {
               dummy2.map((e, index) => (
-                <div key={index} className="org"><img className='min-w-20 ' src={`images/brnd logo/${e}q.svg`} height={"19px"} alt="" /> </div>
+                <div key={index} className="org"><img className='min-w-24 ' src={`images/brnd logo/${e}q.svg`} height={"19px"} alt="" /> </div>
               ))
             }
             {
               dummy2.map((e, index) => (
-                <div key={index} className="org"><img className='min-w-20 ' src={`images/brnd logo/${e}q.svg`} height={"19px"} alt="" /> </div>
+                <div key={index} className="org"><img className='min-w-24 ' src={`images/brnd logo/${e}q.svg`} height={"19px"} alt="" /> </div>
               ))
             }
 
           </div>
-          <div className="title tracking-tighter md:text-7xl text-5xl font-semibold items-start my-[70px] ">
+          <div className="title tracking-tighter md:text-7xl text-5xl font-semibold items-start my-[60px] ">
             Telegram’s First Modular <br className='hidden md:flex' /> Web3 Superapp
           </div>
 
         </section>
 
-        <section className=" px-[25px] md:px-[110px]  bg-[#F9FAF9] product h-full pb-[20px] my-[20px] flex flex-col ">`
+        <section className=" px-[25px] md:px-[110px]  bg-[#F9FAF9] product h-full pb-[20px] my-[10px] flex flex-col ">`
 
 
           <div className="wrap flex flex-col justify-center bg- items-center gap-[49px] w-full ">

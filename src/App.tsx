@@ -9,7 +9,7 @@ function App() {
 
       <div className='overflow-hidden'>
 
-        <nav className='px-[25px] md:px-[70px] pt-[21px] md:py-[29px] flex justify-center bg-white/30 backdrop-blur-md md:justify-between fixed top-0 w-full z-50 bg-white'>
+        <nav className='px-[25px] md:px-[70px] py-[12px] md:py-[24px] shadow-md flex justify-center bg-white/30 backdrop-blur-md md:justify-between fixed top-0 w-full z-50 bg-white'>
           <div className="logo max-w-[124.76px] "><img src="images/Logo.svg" alt="ARME Logo" /></div>
 
           <div className="links hidden md:gap-4 md:flex">

@@ -7,6 +7,7 @@ type RevealOnScrollProps = {
 };
 
 const RevealOnScroll: React.FC<RevealOnScrollProps> = ({ children, animationClasses = "opacity-100 translate-y-0" }) => {
+
   const [isVisible, setIsVisible] = useState(false);
   const ref = useRef<HTMLDivElement | null>(null);
 
@@ -127,7 +128,7 @@ function App() {
 
 
               </div>
-              <button className='bg-[#4A6BFF] border-[black] rounded-[70px] border-[2px] w-[247px] md:w-[310px] h-[54px] md:h-[66px] text-white md:text-lg text-sm '> View More<img className='inline px-2 h-2 md:h-3' src="images/arrowDown.svg" alt="" /></button>
+              <button className='bg-[#4A6BFF] border-[black] rounded-[70px] border-[2px] w-[247px] md:w-[310px] h-[54px] md:h-[66px] text-white md:text-lg text-sm '> And More </button>
 
             </div>
           </section>
@@ -310,12 +311,11 @@ function App() {
             <div className="foot-wrap gap-[70px] justify-center flex flex-col">
               <div className="straigntline md:flex justify-around text-2xl font-medium">
                 <div className="subtitle  text-center">
-                  Apply as KOL
+                  Apply as Creator
                 </div>
                 <div className="subtitle  text-center">Apply for Collab</div>
                 <div className="subtitle  text-center">Join our Team</div>
                 <div className="subtitle  text-center"> Investors Walkthrough</div>
-                <div className="subtitle  text-center">Our Whitepaper</div>
               </div>
               <div className="straightLine-center self-center flex gap-[120px]">
                 <div className="socialIcon"><img src="images/Link - X → SVG.svg" alt="X (formerly Twitrter)" /></div>

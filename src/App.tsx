@@ -112,7 +112,7 @@ function App() {
 
             <div className="wrap flex flex-col justify-center bg- items-center gap-[49px] w-full ">
 
-              <div className="imagesthings flex flex-row flex-wrap gap-[18px] md:gap-[30px] max-w-full justify-start  ">
+              <div className="imagesthings flex flex-row flex-wrap items-center gap-[18px] md:gap-[30px] max-w-full justify-start  ">
 
                 {
                   dummy3.map((e, index) => (

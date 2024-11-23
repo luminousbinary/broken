@@ -307,7 +307,7 @@ function App() {
 
         </RevealOnScroll>
         <RevealOnScroll>
-          <section className="bg-[#F9FAF9] footer h-full md:h-[70vh] md:flex flex-col justify-between mt-[70px] pt-14 ">
+          <section className="md:bg-[#F9FAF9] footer h-full md:h-[70vh] md:flex flex-col justify-between mt-[70px] pt-14 ">
             <div className="foot-wrap gap-[70px] mb-1 px-[25px] md:px-[110px] justify-center flex flex-col">
               <div className="straigntline flex md:flex-row flex-col justify-around gap-y-2 text-2xl font-medium">
                 <div className="subtitle text-center">Apply as Creator</div>

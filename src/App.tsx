@@ -185,7 +185,7 @@ function App() {
         </RevealOnScroll>
 
         <RevealOnScroll>
-          <section className=" px-[25px] md:px-[110px] specs h-full">
+          <section className=" px-[25px] md:px-[110px] specs h-full my-[60px]">
 
             <div className="itemlist flex gap-[28px] justify-evenly overflow-x-auto md:overflow-visible flex-row md:animate-scroll ">
               <div className="flex gap-[28px] justify-evenly flex-row">
@@ -284,15 +284,15 @@ function App() {
               program
             </div>
 
-            <div className="text w-[100vw] tracking-tighter md:text-2xl text-[14px] font-semibold font-inter mt-12 md:mt-24 ">
-              Join thousands of creators in the XARME Creators Program
+            <div className="text w-[100vw] tracking-tighter md:text-2xl text-[14px] font-medium md:font-semibold font-inter mt-12 md:mt-24 ">
+              Join thousands of creators in the <br className='md:hidden inline' /> XARME Creators Program
             </div>
 
-            <div className="rowsofimage flex justify-center gap-1  md:gap-3 items-center mb-2 ">
+            <div className="rowsofimage flex justify-center gap-2 flex-wrap md:gap-3  w-[60%] md:w-full items-center mb-2 ">
               {
                 dummy.map((e, index) => (
 
-                  <div key={index} className="imagesbox bg-slate-800 rounded-full overflow-hidden w-[33px] h-[33px] md:w-[58px] md:h-[58px] ">
+                  <div key={index} className="imagesbox basis-1/5 bg-slate-800 rounded-full overflow-hidden max-w-[33px] h-[33px] md:w-[58px] md:h-[58px] ">
                     <img src={`images/users/${e}im.svg`} alt="prof" />
                   </div>
                 ))

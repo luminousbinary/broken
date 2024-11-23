@@ -187,8 +187,8 @@ function App() {
         <RevealOnScroll>
           <section className=" px-[25px] md:px-[110px] specs h-full my-[60px]">
 
-            <div className="itemlist flex gap-[28px] justify-evenly overflow-x-auto md:overflow-visible flex-row md:animate-scroll ">
-              <div className="flex gap-[28px] justify-evenly flex-row">
+            <div className="itemlist flex gap-[28px] justify-evenly flex-row md:animate-scroll ">
+              <div className="flex gap-[28px] justify-evenly flex-row overflow-x-auto md:overflow-visible">
                 <div className="item tracking-tighter border border-black min-w-[300px] md:min-w-[421px] min-h-[300px] md:min-h-[421px] rounded-[35px] bg-[#9EC4F5] font-medium text-[26px] md:text-[32px] md:p-11 p-5 ">
                   Reinventing Rewards Sustainability and Introducing a new model of utility aggregation for web3 products.
                 </div>

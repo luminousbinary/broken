@@ -112,11 +112,11 @@ function App() {
 
             <div className="wrap flex flex-col justify-center bg- items-center gap-[49px] w-full ">
 
-              <div className="imagesthings flex flex-row flex-wrap items-center gap-[18px] md:gap-[30px] max-w-full justify-start  ">
+              <div className="imagesthings flex flex-row flex-wrap items-center gap-[18px] md:gap-[30px] max-w-full justify-center md:justify-start  ">
 
                 {
                   dummy3.map((e, index) => (
-                    <div key={index} className="itemng basis-1/2 md:basis-[30%] justify-items-center text-white rounded-[15px] md:rounded-[32px]  overflow-hidden max-w-[150px] md:max-h-[370x] md:max-w-[487px] ">
+                    <div key={index} className="itemng basis-1/2 md:basis-[30%] text-white rounded-[15px] md:rounded-[32px]  overflow-hidden max-w-[170px] md:max-h-[370x] md:max-w-[487px] ">
 
                       <img width={"407px"} src={`images/${e}o.svg`} alt="" />
                     </div>

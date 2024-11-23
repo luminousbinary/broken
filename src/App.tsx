@@ -315,7 +315,7 @@ function App() {
                 <div className="subtitle text-center">Join our Team</div>
                 <div className="subtitle text-center"> Investors Walkthrough</div>
               </div>
-              <div className="straightLine justify-between gap-y-4 flex md:flex-row md:flex-nowrap flex-wrap md:gap-x-[120px]">
+              <div className="straightLine items-center justify-between gap-y-4 flex md:flex-row md:flex-nowrap flex-wrap md:gap-x-[120px]">
                 <div className="socialIcon basis-1/2 md:basis-1/4 justify-items-center"><img src="images/Link - X → SVG.svg" alt="X (formerly Twitrter)" /></div>
                 <div className="socialIcon basis-1/2 md:basis-1/4 justify-items-center"><img src="images/GitBook - Icon - Light 1.svg" alt="gitbook" /></div>
                 <div className="socialIcon basis-1/2 md:basis-1/4 justify-items-center"><img src="images/Link - GitHub → SVG.svg" alt="github" /></div>

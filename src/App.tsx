@@ -322,7 +322,7 @@ function App() {
                 <div className="socialIcon basis-1/2 md:basis-1/4 justify-items-center"><img src="images/telegram.svg" alt="telegram" /></div>
               </div>
             </div>
-            <img className=' mt-16 bottom-0 w-full' src="images/ARME.svg" alt="" />
+            <img className=' mt-16 md:mt-20 bottom-0 w-full' src="images/ARME.svg" alt="" />
 
           </section>
 

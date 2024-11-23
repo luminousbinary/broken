@@ -107,7 +107,7 @@ function App() {
 
         <RevealOnScroll>
 
-          <section className=" px-[25px] md:px-[110px]  bg-[#F9FAF9] product h-full pb-[20px] my-[10px] flex flex-col ">`
+          <section className=" px-[25px] md:px-[110px]  bg-[#F9FAF9] product h-full pb-[20px] my-[10px] flex flex-col ">
 
 
             <div className="wrap flex flex-col justify-center bg- items-center gap-[49px] w-full ">

@@ -316,10 +316,10 @@ function App() {
                 <div className="subtitle text-center"> Investors Walkthrough</div>
               </div>
               <div className="straightLine items-center justify-between gap-y-4 flex md:flex-row md:flex-nowrap flex-wrap md:gap-x-[120px]">
-                <div className="socialIcon basis-1/2 md:basis-1/4 justify-items-center"><img src="images/Link - X → SVG.svg" alt="X (formerly Twitrter)" /></div>
-                <div className="socialIcon basis-1/2 md:basis-1/4 justify-items-center"><img src="images/GitBook - Icon - Light 1.svg" alt="gitbook" /></div>
-                <div className="socialIcon basis-1/2 md:basis-1/4 justify-items-center"><img src="images/Link - GitHub → SVG.svg" alt="github" /></div>
-                <div className="socialIcon basis-1/2 md:basis-1/4 justify-items-center"><img src="images/telegram.svg" alt="telegram" /></div>
+                <div className="socialIcon basis-1/2 md:basis-1/4 flex justify-center items-center"><img src="images/Link - X → SVG.svg" alt="X (formerly Twitrter)" /></div>
+                <div className="socialIcon basis-1/2 md:basis-1/4 flex justify-center items-center"><img src="images/GitBook - Icon - Light 1.svg" alt="gitbook" /></div>
+                <div className="socialIcon basis-1/2 md:basis-1/4 flex justify-center items-center"><img src="images/Link - GitHub → SVG.svg" alt="github" /></div>
+                <div className="socialIcon basis-1/2 md:basis-1/4 flex justify-center items-center"><img src="images/telegram.svg" alt="telegram" /></div>
               </div>
             </div>
             <img className=' mt-16 md:mt-20 bottom-0 w-full' src="images/ARME.svg" alt="" />

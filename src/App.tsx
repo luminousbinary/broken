@@ -112,11 +112,11 @@ function App() {
 
             <div className="wrap flex flex-col justify-center bg- items-center gap-[49px] w-full ">
 
-              <div className="imagesthings  flex flex-col  md:flex-row flex-wrap gap-[30px] max-w-full justify-start  ">
+              <div className="imagesthings flex flex-row flex-wrap gap-[18px] md:gap-[30px] max-w-full justify-start  ">
 
                 {
                   dummy3.map((e, index) => (
-                    <div key={index} className="itemng basis-[30%] text-white rounded-[32px] overflow-hidden max-h-[370x] max-w-[487px] ">
+                    <div key={index} className="itemng basis-1/2 md:basis-[30%] justify-items-center text-white rounded-[15px] md:rounded-[32px]  overflow-hidden max-w-[150px] md:max-h-[370x] md:max-w-[487px] ">
 
                       <img width={"407px"} src={`images/${e}o.svg`} alt="" />
                     </div>
@@ -128,7 +128,7 @@ function App() {
 
 
               </div>
-              <button className='bg-[#4A6BFF] border-[black] rounded-[70px] border-[2px] w-[247px] md:w-[310px] h-[54px] md:h-[66px] text-white md:text-lg text-sm '> And More </button>
+              <button className=' w-[247px] md:w-[310px] h-[54px] md:h-[66px] font-medium md:text-lg text-sm '>And More...</button>
 
             </div>
           </section>
@@ -187,18 +187,18 @@ function App() {
         <RevealOnScroll>
           <section className=" px-[25px] md:px-[110px] specs h-full">
 
-            <div className="itemlist flex gap-[28px] justify-evenly  flex-col md:flex-row md:animate-scroll ">
-              <div className="flex gap-[28px] justify-evenly  flex-col md:flex-row">
-                <div className="item tracking-tighter border border-black min-w-[347.82px] md:min-w-[421px] min-h-[347.82px] md:min-h-[421px] rounded-[35px] bg-[#9EC4F5] font-medium text-[26px] md:text-[32px] p-11 ">
+            <div className="itemlist flex gap-[28px] justify-evenly overflow-x-auto md:overflow-visible flex-row md:animate-scroll ">
+              <div className="flex gap-[28px] justify-evenly flex-row">
+                <div className="item tracking-tighter border border-black min-w-[300px] md:min-w-[421px] min-h-[300px] md:min-h-[421px] rounded-[35px] bg-[#9EC4F5] font-medium text-[26px] md:text-[32px] md:p-11 p-5 ">
                   Reinventing Rewards Sustainability and Introducing a new model of utility aggregation for web3 products.
                 </div>
-                <div className="item tracking-tighter border border-black min-h-[347.82px] md:min-h-[421px] min-w-[347.82px] md:min-w-[421px] rounded-[35px] bg-[#FCE74E] font-medium text-[26px] md:text-[32px] p-11  ">
+                <div className="item tracking-tighter border border-black min-h-[300px] md:min-h-[421px] min-w-[300px] md:min-w-[421px] rounded-[35px] bg-[#FCE74E] font-medium text-[26px] md:text-[32px] md:p-11 p-5  ">
                   XARME leverages user-specific, progressive, utility compartment unlocks to expand the project narrative and ensure dynamism of gameplay.
                 </div>
-                <div className="item tracking-tighter border border-black min-h-[347.82px] md:min-h-[421px] min-w-[347.82px] md:min-w-[421px] rounded-[35px] bg-[#C0C6FF] font-medium text-[26px] md:text-[32px] p-11  ">
+                <div className="item tracking-tighter border border-black min-h-[300px] md:min-h-[421px] min-w-[300px] md:min-w-[421px] rounded-[35px] bg-[#C0C6FF] font-medium text-[26px] md:text-[32px] md:p-11 p-5  ">
                   Natively Integrated mechanisms for communication, game progression, community integration, collaboration and Organic Growth.
                 </div>
-                <div className="item tracking-tighter border border-black min-h-[347.82px] md:min-h-[421px] min-w-[347.82px] md:min-w-[421px] rounded-[35px] bg-[#FEC9DD] font-medium text-[26px] md:text-[32px] p-11  ">
+                <div className="item tracking-tighter border border-black min-h-[300px] md:min-h-[421px] min-w-[300px] md:min-w-[421px] rounded-[35px] bg-[#FEC9DD] font-medium text-[26px] md:text-[32px] md:p-11 p-5  ">
                   A challenge of game theory, strategy, vision, Long-term positioning and balance
                 </div>
               </div>
@@ -307,24 +307,22 @@ function App() {
 
         </RevealOnScroll>
         <RevealOnScroll>
-          <section className=" px-[25px] hidden md:px-[110px] bg-[#F9FAF9] footer h-[70vh] md:flex flex-col justify-between mt-[70px] pt-14 ">
-            <div className="foot-wrap gap-[70px] justify-center flex flex-col">
-              <div className="straigntline md:flex justify-around text-2xl font-medium">
-                <div className="subtitle  text-center">
-                  Apply as Creator
-                </div>
-                <div className="subtitle  text-center">Apply for Collab</div>
-                <div className="subtitle  text-center">Join our Team</div>
-                <div className="subtitle  text-center"> Investors Walkthrough</div>
+          <section className="bg-[#F9FAF9] footer h-full md:h-[70vh] md:flex flex-col justify-between mt-[70px] pt-14 ">
+            <div className="foot-wrap gap-[70px] mb-1 px-[25px] md:px-[110px] justify-center flex flex-col">
+              <div className="straigntline flex md:flex-row flex-col justify-around gap-y-2 text-2xl font-medium">
+                <div className="subtitle text-center">Apply as Creator</div>
+                <div className="subtitle text-center">Apply for Collab</div>
+                <div className="subtitle text-center">Join our Team</div>
+                <div className="subtitle text-center"> Investors Walkthrough</div>
               </div>
-              <div className="straightLine-center self-center flex gap-[120px]">
-                <div className="socialIcon"><img src="images/Link - X → SVG.svg" alt="X (formerly Twitrter)" /></div>
-                <div className="socialIcon"><img src="images/GitBook - Icon - Light 1.svg" alt="gitbook" /></div>
-                <div className="socialIcon"><img src="images/Link - GitHub → SVG.svg" alt="github" /></div>
-                <div className="socialIcon"><img src="images/telegram.svg" alt="telegram" /></div>
+              <div className="straightLine justify-between gap-y-4 flex md:flex-row md:flex-nowrap flex-wrap md:gap-x-[120px]">
+                <div className="socialIcon basis-1/2 md:basis-1/4 justify-items-center"><img src="images/Link - X → SVG.svg" alt="X (formerly Twitrter)" /></div>
+                <div className="socialIcon basis-1/2 md:basis-1/4 justify-items-center"><img src="images/GitBook - Icon - Light 1.svg" alt="gitbook" /></div>
+                <div className="socialIcon basis-1/2 md:basis-1/4 justify-items-center"><img src="images/Link - GitHub → SVG.svg" alt="github" /></div>
+                <div className="socialIcon basis-1/2 md:basis-1/4 justify-items-center"><img src="images/telegram.svg" alt="telegram" /></div>
               </div>
             </div>
-            <img className='' src="images/ARME.svg" alt="" />
+            <img className=' mt-16 bottom-0 w-full' src="images/ARME.svg" alt="" />
 
           </section>
 

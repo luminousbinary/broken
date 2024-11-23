@@ -279,27 +279,28 @@ function App() {
         <RevealOnScroll>
           <section className=" px-[25px] md:px-[110px] program flex h-full flex-col gap-5 md:gap-10 justify-center mt-16 md:mb-0 mb-16 items-center text-center">
 
-            <div className="title tracking-tighter md:text-7xl text-5xl font-semibold  ">
-              XARME  <img className='w-11 inline' src="images/emoji/peacesign.svg" alt="" /> <br className="inline md:hidden" />   Creators <br />
+            <div className="title tracking-tight md:text-7xl text-5xl  font-semibold  ">
+            <img className='w-20 inline md:hidden' src="images/emoji/peacesign.svg" alt="" /> <br className="inline md:hidden" /> 
+              XARME <img className='w-16 hidden md:inline' src="images/emoji/peacesign.svg" alt="" /><br className="inline md:hidden" />  Creators <br />
               program
             </div>
 
-            <div className="text w-[100vw] tracking-tighter md:text-2xl text-[14px] font-medium md:font-semibold font-inter mt-12 md:mt-24 ">
+            <div className="text w-[100vw] tracking-tighter md:text-2xl text-[14px] font-medium md:font-semibold font-inter mt-5 md:mt-16 ">
               Join thousands of creators in the <br className='md:hidden inline' /> XARME Creators Program
             </div>
 
-            <div className="rowsofimage flex justify-center gap-2 flex-wrap md:gap-3  w-[60%] md:w-full items-center mb-2 ">
+            <div className="rowsofimage flex justify-center gap-2 flex-wrap md:gap-3  w-[60%] md:w-full items-center  ">
               {
                 dummy.map((e, index) => (
 
-                  <div key={index} className="imagesbox basis-1/5 bg-slate-800 rounded-full overflow-hidden max-w-[33px] h-[33px] md:w-[58px] md:h-[58px] ">
+                  <div key={index} className="imagesbox basis-1/5 bg-slate-800 rounded-full overflow-hidden max-w-[33px] md:max-w-[58px] h-[33px] md:w-[58px] md:h-[58px] ">
                     <img src={`images/users/${e}im.svg`} alt="prof" />
                   </div>
                 ))
               }
             </div>
 
-            <button className='bg-[#4A6BFF] border-[black] rounded-[70px] border-[2px] w-[247px] md:w-[310px] h-[54px] md:h-[66px] text-white md:text-lg text-sm '>
+            <button className='bg-[#4A6BFF] mt-5 border-[black] rounded-[70px] border-[2px] w-[247px] md:w-[310px] h-[54px] md:h-[66px] text-white md:text-lg text-sm '>
               Join Now
             </button>
 

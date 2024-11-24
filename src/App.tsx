@@ -53,13 +53,13 @@ function App() {
 
           <div className="links hidden md:gap-4 md:flex">
             <button className='flex text-sm font-semibold text-nowrap justify-center items-center gap-4 text-white bg-black px-3 rounded-full w-[156px] h-[53px]'>
-              Join Us <img src="images/inverse/telegram.svg" width={"20px"} alt="telegram" />
-              <img src="images/inverse/x.svg" width={"20px"} alt="X (formerly Twitrter)" />
+              Join Us  <a href="https://x.com/xarmebot"> <img src="images/inverse/telegram.svg" width={"20px"} alt="telegram" /></a>
+              <a href=""><img src="images/inverse/x.svg" width={"20px"} alt="X (formerly Twitrter)" /></a>
             </button>
             <button className='flex text-sm font-semibold justify-center items-center gap-4 text-white bg-black px-3 rounded-full w-[126px] h-[53px]'>
               Git
-              <img src="images/inverse/GitBook - Icon - Light 1.svg" width={"20px"} alt="gitbook" />
-              <img src="images/inverse/github.svg" width={"20px"} alt="github" />
+              <a href="https://x-arme-collective.gitbook.io">  <img src="images/inverse/GitBook - Icon - Light 1.svg" width={"20px"} alt="gitbook" /></a>
+              <a href="https://github.com/XARME-COLLECTIVE/">  <img src="images/inverse/github.svg" width={"20px"} alt="github" /></a>
             </button>
           </div>
 
@@ -280,12 +280,12 @@ function App() {
           <section className=" px-[25px] md:px-[110px] program flex h-full flex-col gap-5 md:gap-10 justify-center mt-16 md:mb-0 mb-16 items-center text-center">
 
             <div className="title tracking-tight md:text-7xl text-5xl  font-semibold  ">
-            <img className='w-20 inline md:hidden' src="images/emoji/peacesign.svg" alt="" /> <br className="inline md:hidden" /> 
+              <img className='w-20 inline md:hidden' src="images/emoji/peacesign.svg" alt="" /> <br className="inline md:hidden" />
               XARME <img className='w-16 hidden md:inline' src="images/emoji/peacesign.svg" alt="" /><br className="inline md:hidden" />  Creators <br />
               program
             </div>
 
-            <div className="text w-[100vw] tracking-tighter md:text-2xl text-[14px] font-medium md:font-semibold font-inter mt-5 md:mt-16 ">
+            <div className="text w-[100vw] tracking-tighter md:text-2xl text-[14px] font-medium font-inter mt-5 md:mt-6 ">
               Join thousands of creators in the <br className='md:hidden inline' /> XARME Creators Program
             </div>
 
@@ -311,16 +311,16 @@ function App() {
           <section className="md:bg-[#F9FAF9] footer h-full md:h-[70vh] md:flex flex-col justify-between mt-[70px] pt-14 ">
             <div className="foot-wrap gap-[70px] mb-1 px-[25px] md:px-[110px] justify-center flex flex-col">
               <div className="straigntline flex md:flex-row flex-col justify-around gap-y-2 text-2xl font-medium">
-                <div className="subtitle text-center">Apply as Creator</div>
-                <div className="subtitle text-center">Apply for Collab</div>
-                <div className="subtitle text-center">Join our Team</div>
-                <div className="subtitle text-center"> Investors Walkthrough</div>
+                <a href='https://forms.gle/ZwiVJXzhGL2bRJNC9'><div className="subtitle text-center">Apply as Creator</div></a>
+                <a href='https://forms.gle/wJNs4tyvvtVKsKjNA'><div className="subtitle text-center">Apply for Collab</div></a>
+                <a href='https://forms.gle/wJNs4tyvvtVKsKjNA'><div className="subtitle text-center">Join our Team</div></a>
+                <a href='#'><div className="subtitle text-center"> Investors Walkthrough</div></a>
               </div>
               <div className="straightLine items-center justify-between gap-y-4 flex md:flex-row md:flex-nowrap flex-wrap md:gap-x-[120px]">
-                <div className="socialIcon basis-1/2 md:basis-1/4 flex justify-center items-center"><img src="images/Link - X → SVG.svg" alt="X (formerly Twitrter)" /></div>
-                <div className="socialIcon basis-1/2 md:basis-1/4 flex justify-center items-center"><img src="images/GitBook - Icon - Light 1.svg" alt="gitbook" /></div>
-                <div className="socialIcon basis-1/2 md:basis-1/4 flex justify-center items-center"><img src="images/Link - GitHub → SVG.svg" alt="github" /></div>
-                <div className="socialIcon basis-1/2 md:basis-1/4 flex justify-center items-center"><img src="images/telegram.svg" alt="telegram" /></div>
+                <a href="https://x.com/xarmebot"><div className="socialIcon basis-1/2 md:basis-1/4 flex justify-center items-center"><img src="images/Link - X → SVG.svg" alt="X (formerly Twitrter)" /></div></a>
+                <a href="https://x-arme-collective.gitbook.io"><div className="socialIcon basis-1/2 md:basis-1/4 flex justify-center items-center"><img src="images/GitBook - Icon - Light 1.svg" alt="gitbook" /></div></a>
+                <a href="https://github.com/XARME-COLLECTIVE/"><div className="socialIcon basis-1/2 md:basis-1/4 flex justify-center items-center"><img src="images/Link - GitHub → SVG.svg" alt="github" /></div></a>
+                <a href=""><div className="socialIcon basis-1/2 md:basis-1/4 flex justify-center items-center"><img src="images/telegram.svg" alt="telegram" /></div></a>
               </div>
             </div>
             <img className=' mt-16 md:mt-20 bottom-0 w-full' src="images/ARME.svg" alt="" />

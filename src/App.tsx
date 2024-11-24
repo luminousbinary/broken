@@ -116,7 +116,7 @@ function App() {
 
                 {
                   dummy3.map((e, index) => (
-                    <div key={index} className="itemng basis-1/2 md:basis-[30%] text-white rounded-[15px] md:rounded-[32px]  overflow-hidden max-w-[170px] md:max-h-[370x] md:max-w-[487px] ">
+                    <div key={index} className="itemng basis-1/2 md:basis-[30%] text-white rounded-[15px] md:rounded-[32px]  overflow-hidden w-full max-w-[9.5rem] md:max-h-[370x] md:max-w-[487px] ">
 
                       <img width={"407px"} src={`images/${e}o.svg`} alt="" />
                     </div>
@@ -316,11 +316,11 @@ function App() {
                 <a href='https://forms.gle/wJNs4tyvvtVKsKjNA'><div className="subtitle text-center">Join our Team</div></a>
                 <a href='#'><div className="subtitle text-center"> Investors Walkthrough</div></a>
               </div>
-              <div className="straightLine items-center justify-between gap-y-4 flex md:flex-row md:flex-nowrap flex-wrap md:gap-x-[120px]">
-                <a href="https://x.com/xarmebot"><div className="socialIcon basis-1/2 md:basis-1/4 flex justify-center items-center"><img src="images/Link - X → SVG.svg" alt="X (formerly Twitrter)" /></div></a>
-                <a href="https://x-arme-collective.gitbook.io"><div className="socialIcon basis-1/2 md:basis-1/4 flex justify-center items-center"><img src="images/GitBook - Icon - Light 1.svg" alt="gitbook" /></div></a>
-                <a href="https://github.com/XARME-COLLECTIVE/"><div className="socialIcon basis-1/2 md:basis-1/4 flex justify-center items-center"><img src="images/Link - GitHub → SVG.svg" alt="github" /></div></a>
-                <a href=""><div className="socialIcon basis-1/2 md:basis-1/4 flex justify-center items-center"><img src="images/telegram.svg" alt="telegram" /></div></a>
+              <div className="straightLine items-center justify-between md:justify-center gap-y-4 flex md:flex-row md:flex-nowrap flex-wrap md:gap-x-[120px]">
+                <a href="https://x.com/xarmebot" className="socialIcon basis-1/2 md:basis-1/4 flex justify-center items-center"><img src="images/Link - X → SVG.svg" alt="X (formerly Twitrter)" /></a>
+                <a href="https://x-arme-collective.gitbook.io" className="socialIcon basis-1/2 md:basis-1/4 flex justify-center items-center"><img src="images/GitBook - Icon - Light 1.svg" alt="gitbook" /></a>
+                <a href="https://github.com/XARME-COLLECTIVE/" className="socialIcon basis-1/2 md:basis-1/4 flex justify-center items-center"><img src="images/Link - GitHub → SVG.svg" alt="github" /></a>
+                <a href="" className="socialIcon basis-1/2 md:basis-1/4 flex justify-center items-center"><img src="images/telegram.svg" alt="telegram" /></a>
               </div>
             </div>
             <img className=' mt-16 md:mt-20 bottom-0 w-full' src="images/ARME.svg" alt="" />

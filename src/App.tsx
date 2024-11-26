@@ -109,7 +109,7 @@ function App() {
             <div className="singleline md:mb-[70px] md:gap-[60px] flex items-center justify-evenly md:justify-center w-full ">
               {
                 dummy2.map((e, index) => (
-                 <img key={index} className='max-w-10 md:max-w-24 org border border-transparent hover:border-black rounded-lg hover:scale-125 transition-transform ease-in-out duration-300' src={`images/brnd logo/${e}q.svg`} alt="" /> 
+                 <img key={index} className='max-w-10 md:max-w-24 org border border-transparent hover:border-black rounded-lg hover:scale-125 transition-transform ease-in-out duration-300' src={`images/brndlogo/${e}q.svg`} alt="" /> 
                 ))
               }
 

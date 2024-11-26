@@ -74,8 +74,7 @@ const RevealOnScrollSlide: React.FC<RevealOnScrollProps> = ({ children, animatio
 
 function App() {
   const dummy = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-  const dummy2 = [1, 2, 3, 4, 5, 6, 7, 8]
-  const dummy3 = [1, 2, 3, 4, 5, 6]
+  const dummy2 = [1, 2, 3, 4, 5, 6]
   return (
     <>
 
@@ -106,26 +105,11 @@ function App() {
 
         </section>
         <RevealOnScroll>
-          <section className=" px-[25px] md:px-[110px] companies-starch mt-[70px] md:mt-0">
-            <div className="singleline h-12 flex gap-[60px] w-full justify-between animate-scroll items-center ">
+          <section className=" px-[25px] md:px-[110px] companies-starch mt-[70px]   md:mt-[-20px]">
+            <div className="singleline md:mb-[70px] gap-[60px] flex items-center justify-center w-full ">
               {
                 dummy2.map((e, index) => (
-                  <div key={index} className="org"><img className='min-w-24 ' src={`images/brnd logo/${e}q.svg`} height={"19px"} alt="" /> </div>
-                ))
-              }
-              {
-                dummy2.map((e, index) => (
-                  <div key={index} className="org"><img className='min-w-24 ' src={`images/brnd logo/${e}q.svg`} height={"19px"} alt="" /> </div>
-                ))
-              }
-              {
-                dummy2.map((e, index) => (
-                  <div key={index} className="org"><img className='min-w-24 ' src={`images/brnd logo/${e}q.svg`} height={"19px"} alt="" /> </div>
-                ))
-              }
-              {
-                dummy2.map((e, index) => (
-                  <div key={index} className="org"><img className='min-w-24 ' src={`images/brnd logo/${e}q.svg`} height={"19px"} alt="" /> </div>
+                 <img key={index} className='max-w-24 org border border-transparent hover:border-black rounded-lg hover:scale-125 transition-transform ease-in-out duration-300' src={`images/brnd logo/${e}q.svg`} alt="" /> 
                 ))
               }
 
@@ -140,7 +124,7 @@ function App() {
 
         <RevealOnScroll>
 
-          <section className=" px-[25px] md:px-[110px]  bg-[#F9FAF9] product h-full pb-[20px] my-[10px] flex flex-col ">
+          <section className=" px-[25px] md:px-[110px] md:pt-8  bg-[#F9FAF9] product h-full pb-[20px] my-[10px] flex flex-col ">
 
 
             <div className="wrap flex flex-col justify-center bg- items-center gap-[49px] w-full ">
@@ -148,7 +132,7 @@ function App() {
               <div className="imagesthings flex flex-row flex-wrap items-center gap-[18px] md:gap-[30px] max-w-full justify-center md:justify-start  ">
 
                 {
-                  dummy3.map((e, index) => (
+                  dummy2.map((e, index) => (
                     <div key={index} className="itemng basis-1/2 md:basis-[30%] text-white rounded-[15px] md:rounded-[32px]  overflow-hidden w-full max-w-[9.5rem] md:max-h-[370x] md:max-w-[487px] ">
 
                       <img width={"407px"} src={`images/${e}o.svg`} alt="" />

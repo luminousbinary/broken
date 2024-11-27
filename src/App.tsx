@@ -96,20 +96,21 @@ function App() {
           </div>
 
         </nav>
-
+ <RevealOnScroll>
         <section className=" px-[25px] md:px-[110px] hero flex flex-col text-center items-center gap-[40px] justify-center md:h-screen mt-[103px] md:mt-0">
-          <div className="head md:text-2xl text-xl font-normal md:font-semibold font-inter ">X-Arme Collective</div>
-          <div className="title tracking-tighter md:text-7xl text-5xl font-semibold text-center">The Gamified Lifestyle <br className='hidden md:inline' /> and Growth SuperApp.</div>
-          <div className="subtitle text-lg text-[#636363] md:text-xl font-medium text-center ">A community-oriented, utility-driven product hub <br className='hidden md:inline' /> on The Open Network.</div>
-          <button className='bg-[#4A6BFF] border-[black] rounded-[70px] border-[2px] w-[247px] md:w-[310px] h-[54px] md:h-[66px] text-white md:text-lg text-sm '>Enter MotherApp<img className='inline px-2 h-2 md:h-5' src="images/inverse/telegram.svg" alt="" /></button>
-
+         
+            <div className="head md:text-2xl text-xl font-normal md:font-semibold font-inter ">X-Arme Collective</div>
+            <div className="title tracking-tighter md:text-7xl text-5xl font-semibold text-center">The Gamified Lifestyle <br className='hidden md:inline' /> and Growth SuperApp.</div>
+            <div className="subtitle text-lg text-[#636363] md:text-xl font-medium text-center ">A community-oriented, utility-driven product hub <br className='hidden md:inline' /> on The Open Network.</div>
+            <button className='bg-[#4A6BFF] border-[black] rounded-[70px] border-[2px] w-[247px] md:w-[310px] h-[54px] md:h-[66px] text-white md:text-lg text-sm '>Enter MotherApp<img className='inline px-2 h-2 md:h-5' src="images/inverse/telegram.svg" alt="" /></button>
         </section>
-        <RevealOnScroll>
-          <section className=" px-[25px] md:px-[110px] companies-starch mt-[70px]   md:mt-[-20px]">
+                 </RevealOnScroll>
+ <RevealOnScroll>
+          <section className=" px-[25px] md:px-[110px] companies-starch mt-[70px]  md:mt-[-80px]">
             <div className="singleline md:mb-[70px] md:gap-[60px] flex items-center justify-evenly md:justify-center w-full ">
               {
                 dummy2.map((e, index) => (
-                 <img key={index} className='max-w-10 md:max-w-24 org border border-transparent hover:border-black rounded-lg hover:scale-125 transition-transform ease-in-out duration-300' src={`images/brndlogo/${e}q.svg`} alt="" /> 
+                  <img key={index} className='max-w-10 md:max-w-20 org border border-transparent hover:border-black rounded-lg hover:scale-125 transition-transform ease-in-out duration-300' src={`images/brndlogo/${e}q.svg`} alt="" />
                 ))
               }
 

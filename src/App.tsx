@@ -98,16 +98,13 @@ function App() {
         </nav>
 
         <RevealOnScroll>
-          <section className=" px-[25px] md:px-[110px] hero flex flex-col text-center items-center gap-[40px] justify-center md:h-screen mt-[103px] md:mt-0">
+          <section className=" px-[25px] md:px-[110px] hero flex flex-col text-center items-center gap-[40px] justify-center min-h-fit md:h-[100vh] mt-[103px] lg:mt-0">
             <div className="head md:text-2xl text-xl font-normal md:font-semibold font-inter ">X-Arme Collective</div>
             <div className="title tracking-tighter md:text-8xl text-5xl font-semibold text-center">The Gamified <br className='hidden md:inline' /> Telegam SuperApp.</div>
             <div className="subtitle text-lg text-[#636363] md:text-xl font-medium text-center ">A community-oriented, utility-driven product hub <br className='hidden md:inline' /> on The Open Network.</div>
             <button className='bg-[#4A6BFF] border-[black] rounded-[70px] border-[2px] w-[247px] md:w-[310px] h-[54px] md:h-[66px] text-white md:text-lg text-sm '>Enter MotherApp<img className='inline px-2 h-2 md:h-5' src="images/inverse/telegram.svg" alt="" /></button>
-          </section>
-        </RevealOnScroll>
-        <RevealOnScroll>
-          <section className=" px-[25px] md:px-[110px] companies-starch mt-[70px]  md:mt-[-70px]">
-            <div className="singleline md:mb-[70px] md:gap-[60px] flex items-center justify-evenly md:justify-center w-full ">
+         
+            <div className="px-[25px] md:px-[110px] singleline md:mb-[60px] md:gap-[60px] md:mt-[60px]  flex items-center justify-evenly md:justify-center w-full ">
               {
                 dummy2.map((e, index) => (
                   <img key={index} className='max-w-10 md:max-w-20 org border border-transparent hover:border-black rounded-lg hover:scale-125 transition-transform ease-in-out duration-300' src={`images/brndlogo/${e}q.svg`} alt="" />
@@ -115,13 +112,16 @@ function App() {
               }
 
             </div>
-            <div className="title tracking-tighter md:text-7xl text-5xl font-semibold items-start my-[60px] ">
-              Telegram’s First Modular <br className='hidden md:flex' /> Web3 Superapp
-            </div>
-
+         
           </section>
         </RevealOnScroll>
+          
+          <RevealOnScroll>
 
+            <div className="title px-[25px] md:px-[110px] tracking-tighter md:text-7xl text-5xl font-semibold items-start mb-[60px] mt-[50px] md:mt-[60px] ">
+              Telegram’s First Modular <br className='hidden md:flex' /> Web3 Superapp
+            </div>
+          </RevealOnScroll>
 
         <RevealOnScroll>
 
@@ -156,7 +156,7 @@ function App() {
 
 
         <RevealOnScroll>
-          <section className=" px-[25px] md:px-[110px] features h-full  mt-[80px] ">
+          <section className=" px-[25px] md:px-[110px] features h-full  mt-[50px] md:mt-[80px] ">
             <div className="title tracking-tighter md:text-7xl text-5xl mb-2 font-semibold text-start">
               The XARME MotherApp
             </div>
@@ -165,7 +165,7 @@ function App() {
               of an evolving and dynamic suite of integrated products and use-cases.
             </div>
 
-            <div className="imagelist flex flex-col md:flex-row md:flex-wrap pt-[70px] md:pt-[153px]   ">
+            <div className="imagelist flex flex-col w-full md:flex-row md:flex-wrap pt-[60px] md:pt-[153px] justify-center items-center  ">
               <div className="imageitem animate-slideUp md:flex flex-col md:mb-[-70px] justify-end w-[360px] basis-1/3  ">
                 <div className="lil-title">
                   <img className='transition-transform duration-300 ease-in-out hover:animate-hoverL' src="images/xot/1f.png" alt="image1" />
@@ -339,8 +339,8 @@ function App() {
 
         </RevealOnScroll>
         <RevealOnScroll>
-          <section className="md:bg-[#F9FAF9] footer h-full md:h-[70vh] md:flex flex-col justify-between mt-[70px] pt-14 ">
-            <div className="foot-wrap gap-[70px] mb-1 px-[25px] md:px-[110px] justify-center flex flex-col">
+          <section className="md:bg-[#F9FAF9] footer h-fit md:h-[70vh] md:flex flex-col justify-between mt-[70px] md:pt-14 ">
+            <div className="foot-wrap gap-[60px] md:gap-[70px] mb-1 px-[25px] md:px-[110px] justify-center flex flex-col">
               <div className="straigntline flex md:flex-row flex-col justify-around gap-y-2 text-2xl font-medium">
                 <a href='https://forms.gle/ZwiVJXzhGL2bRJNC9' className='relative group'><div className="subtitle text-center">Apply as Creator</div>  <span className="absolute left-0 bottom-0 w-0 h-1 bg-[#303332] transition-all group-hover:w-full duration-300 ease-in-out"></span></a>
                 <a href='https://forms.gle/wJNs4tyvvtVKsKjNA' className='relative group'><div className="subtitle text-center">Apply for Collab</div>  <span className="absolute left-0 bottom-0 w-0 h-1 bg-[#303332] transition-all group-hover:w-full duration-300 ease-in-out"></span></a>

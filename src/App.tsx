@@ -165,37 +165,26 @@ function App() {
               of an evolving and dynamic suite of integrated products and use-cases.
             </div>
 
-            <div className="imagelist flex flex-col w-full md:flex-row md:flex-wrap pt-[60px] md:pt-[153px] justify-center items-center  ">
-              <div className="imageitem animate-slideUp md:flex flex-col md:mb-[-70px] justify-end w-[360px] basis-1/3  ">
-                <div className="lil-title">
+            <div className="imagelist flex flex-col w-full md:flex-row md:flex-wrap pt-[60px] md:pt-[143px] justify-center items-center  ">
+           
+              <div className="imageitem animate-slideUp md:flex flex-col md:mt-[180px] justify-end w-[360px] basis-1/3  ">
                   <img className='transition-transform duration-300 ease-in-out hover:animate-hoverL' src="images/xot/1f.png" alt="image1" />
-                </div>
               </div>
 
               <div className="imageitem animate-slideUp md:flex flex-col mt-[-51px] md:mt-[0px] md:mb-[70px] w-[360px] basis-1/3 ">
-                <div className="lil-title">
                   <img className='transition-transform duration-300 ease-in-out hover:animate-hoverL' src="images/xot/6f.png" alt="image1" />
-                </div>
               </div>
-              <div className="imageitem animate-slideUp md:flex flex-col mt-[-51px] md:mt-[0px] md:mb-[-100px] justify-end w-[360px] basis-1/3 ">
-                <div className="lil-title">
+              <div className="imageitem animate-slideUp md:flex flex-col mt-[-51px]  md:mt-[200px] justify-end w-[360px] basis-1/3 ">
                   <img className='transition-transform duration-300 ease-in-out hover:animate-hoverL' src="images/xot/3f.png" alt="image1" />
-                </div>
               </div>
-              <div className="imageitem animate-slideUp md:flex flex-col mt-[-51px] md:mt-[0px] md:justify-center w-[360px] basis-1/3 ">
-                <div className="lil-title">
+              <div className="imageitem animate-slideUp md:flex flex-col mt-[-51px] md:mt-[-200px] md:justify-start w-[360px] basis-1/3 ">
                   <img className='transition-transform duration-300 ease-in-out hover:animate-hoverL' src="images/xot/5f.png" alt="image1" />
-                </div>
               </div>
               <div className="imageitem animate-slideUp md:flex flex-col mt-[-51px] md:mt-[-70px] w-[360px] basis-1/3 ">
-                <div className="lil-title">
                   <img className='transition-transform duration-300 ease-in-out hover:animate-hoverL' src="images/xot/4f.png" alt="image1" />
-                </div>
               </div>
-              <div className="imageitem animate-slideUp md:flex flex-col mt-[-51px] md:mt-[0px] md:justify-center w-[360px] basis-1/3 ">
-                <div className="lil-title">
+              <div className="imageitem animate-slideUp md:flex flex-col mt-[-51px] md:mt-[-200px] md:justify-start w-[360px] basis-1/3 ">
                   <img className='transition-transform duration-300 ease-in-out hover:animate-hoverL' src="images/xot/2f.png" alt="image1" />
-                </div>
               </div>
 
             </div>
@@ -258,12 +247,12 @@ function App() {
 
         <RevealOnScroll>
           <section className="md:bg-[#F9FAF9] product h-full flex flex-col md:flex-row justify-between mt-[60px] items-start md:items-center">
-            <div className="main-title flex flex-col gap-y-6 basis-3/12 px-[25px] py-[47px] md:pl-[110px]">
+            <div className="main-title flex flex-col gap-y-6 basis-4/12 px-[25px] py-[47px] md:pl-[110px]">
               <div className="subtitle">X-on-Ton</div>
               <div className="title tracking-tighter md:text-7xl text-5xl font-semibold text-start">The Crazy <br /> Stats</div>
             </div>
 
-            <div className="li bg-[#F9FAF9]  basis-9/12 px-[20px] md:px-[110px] ">
+            <div className="li bg-[#F9FAF9]  basis-8/12 px-[20px] md:px-[110px] ">
 
               <RevealOnScrollSlide>
                 <div className="liitems hover:animate-everScale flex my-5 md:my-[70px] text-[25px] md:text-[44px] text-wrap tracking-tight font-medium justify-end items-center ml-[66px] ">
@@ -343,7 +332,7 @@ function App() {
             <div className="foot-wrap gap-[60px] md:gap-[70px] mb-1 px-[25px] md:px-[110px] justify-center flex flex-col">
               <div className="straigntline flex md:flex-row flex-col justify-around gap-y-2 text-2xl font-medium">
                 <a href='https://forms.gle/ZwiVJXzhGL2bRJNC9' className='relative group'><div className="subtitle text-center">Apply as Creator</div>  <span className="absolute left-0 bottom-0 w-0 h-1 bg-[#303332] transition-all group-hover:w-full duration-300 ease-in-out"></span></a>
-                <a href='https://forms.gle/wJNs4tyvvtVKsKjNA' className='relative group'><div className="subtitle text-center">Apply for Collab</div>  <span className="absolute left-0 bottom-0 w-0 h-1 bg-[#303332] transition-all group-hover:w-full duration-300 ease-in-out"></span></a>
+                <a href='https://docs.google.com/forms/d/e/1FAIpQLSfEvR5egkqIbUy1iuYxyz_O7qHDJBdG5X6bpnLuvI-pYGz7eg/viewform?usp=sf_link' className='relative group'><div className="subtitle text-center">Apply for Collab</div>  <span className="absolute left-0 bottom-0 w-0 h-1 bg-[#303332] transition-all group-hover:w-full duration-300 ease-in-out"></span></a>
                 <a href='https://forms.gle/wJNs4tyvvtVKsKjNA' className='relative group'><div className="subtitle text-center">Join our Team</div>  <span className="absolute left-0 bottom-0 w-0 h-1 bg-[#303332] transition-all group-hover:w-full duration-300 ease-in-out"></span></a>
                 <a href='#' className='relative group'><div className="subtitle text-center"> Investors Walkthrough</div>  <span className="absolute left-0 bottom-0 w-0 h-1 bg-[#303332] transition-all group-hover:w-full duration-300 ease-in-out"></span></a>
               </div>
